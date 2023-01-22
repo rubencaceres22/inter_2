@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>FC Internazionale Milano</title>
+</head>
+<body>
+    <header id="top">
+        <span>
+            <vertical-align: middle><img src="./images/favicon-32x32.png" alt="Logo Inter"/>FC Internazionale Milano</vertical-align>
+        </span>
+        <nav>
+            <a href="./index.html"><button>Inicio</button></a>
+            <a href="./historia.html"><button>Historia</button></a>
+            <a href="./titulos.html"><button>Títulos</button></a>
+            <a href="./plantilla_actual.html"><button>Plantilla Actual</button></a>
+            <a href="./contacto.html"><button>Contacto</button></a>
+        </nav>
+    </header>   
+<main>
+    <section>
+        <h2>Contacto</h2>
+        <form action="" method="post">
+
+            <div>
+                <label for="nombre">Ingrese su nombre y apellido:</label>
+                <input
+                type="text"
+                name=""
+                id="nombre"
+                required
+                placeholder="Nombre y Apellido"
+                />
+            </div>
+
+            <div>
+                <label for="email">Ingrese su email:</label>
+                <input
+                type="text"
+                name=""
+                id="email"
+                required
+                placeholder="ejemplo@ejemplo.com"
+                />
+            </div>
+
+            <p>¿Vive en Italia?</p>
+            <div>
+                <label for="si">Si</label>
+                <input type="radio" name="pais" id="si" value="Si"/>
+                <label for="no">No</label>
+                <input type="radio" name="pais" id="no" value="No"/> 
+            </div>
+            
+            <p>Motivo de contacto</p>
+            <div>
+                <label for="fel">Felicitación</label>
+                <input type="checkbox" name="motivo" id="fel" value="Felicitación"/>
+                <label for="con">Consulta</label>
+                <input type="checkbox" name="motivo" id="con" value="Consulta"/>
+                <label for="queja">Queja</label>
+                <input type="checkbox" name="motivo" id="queja" value="Queja"/>
+                <label for="suj">Sujerencia</label>
+                <input type="checkbox" name="motivo" id="suj" value="Sujerencia"/>
+            </div>
+            
+            <p>Escriba su mensaje:</p>
+            <textarea name="" id="texto" cols="30" rows="10"></textarea>
+
+            <div>
+                <input id="enviar" type="submit" value="Enviar"/>
+                <input id="reset" type="reset" value="Limpiar"/>
+            </div>
+            
+        </form>
+    </section>
+</main>
+    
+    <footer>
+        <a href="#top"><button>Volver Arriba</button></a>
+    </footer>
+</body>
+</html>
