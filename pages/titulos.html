@@ -4,60 +4,123 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
-    <title>FC Internazionale Milano</title>
+    <title>FC Internazionale Milano - Títulos</title>
 </head>
 <body>
-    <header id="top">
-        <span>
-            <vertical-align: middle><img src="./images/favicon-32x32.png" alt="Logo Inter"/>FC Internazionale Milano</vertical-align>
-        </span>
-        <nav>
-            <a href="./index.html"><button>Inicio</button></a>
-            <a href="./historia.html"><button>Historia</button></a>
-            <a href="./titulos.html"><button>Títulos</button></a>
-            <a href="./plantilla_actual.html"><button>Plantilla Actual</button></a>
-            <a href="./contacto.html"><button>Contacto</button></a>
-        </nav>
+    <header id="top" class="container-fluid bg-black">
+        <div class="container-fluid bg-black">
+            <div class="h2 col-100 row-auto">
+                <a class="navbar-brand d-inline-block d-flex justify-content-center align-items-center text-white" href="../index.html">
+                  <img src="../images/favicon.png" alt="Logo" width="50" height="50">
+                FC Internazionale Milano
+                </a>
+            </div>
+            <ul class="nav nav-pills bg-black col-100 row-auto nav-fill">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"  href="./historia.html">Historia</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active fw-bold" aria-current="page" href="./titulos.html">Títulos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./plantilla_actual.html">Plantilla Actual</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contacto.html">Contacto</a>
+                </li>
+              </ul>
+        </div>
     </header>   
+    <main class="container-fluid bg-black p-3">
+        <div class="p-2 bg-primary m-2 row h-100">
+            <section class="col-12 h-100">
+                <h2>Títulos Nacionales</h2>
+                <p>Los títulos nacionales ganador por el Inter son los siguientes:</p>
+                <table class="table table-primary">
+                    <th>Competición Nacional</th>
+                    <th>Títulos</th>
+                    <tr>
+                    <tr><td>Primera División de Italia (19)</td><td>1909-10, 1919-20, 1929-30, 1937-38, 1939-40, 1952-53, 1953-54, 1962-63, 1964-65, 1965-66, 1970-71, 1979-80, 1988-89, 2005-06, 2006-07, 2007-08, 2008-09, 2009-10, 2020-21.</td></tr>
+                    <tr><td>Copa de Italia (8)</td><td>1938-39, 1977-78, 1981-82, 2004-05, 2005-06, 2009-10, 2010-11, 2021-22.</td></tr>
+                    <tr><td>Supercopa de Italia (6)</td><td>1989, 2005, 2006, 2008, 2010, 2021.</td></tr>                
+                </table>
+            </section>
+            <!-- <aside class="col-12 h-100 d-flex justify-content-center">
+                <img src="../images/Inter titulos 2.jpg" class="img-fluid" alt="Títulos Nacionales Inter">
+            </aside> -->
+        </div>
+        <div class="p-2 bg-primary m-2 row h-100">
+            <section class="col-12 h-100">
+                <h2>Títulos Internacionales</h2>
+                <p>Los títulos internacionales ganador por el Inter son los siguientes:</p>
+                <table class="table table-primary">
+                    <th>Competición Internacional</th>
+                    <th>Títulos</th>
+                    <tr><td>Copa Mundial de Clubes (1)</td><td>2010.</td></tr>
+                    <tr><td>Copa Intercontinental (2)</td><td>1964, 1965.</td></tr>
+                    <tr><td>Liga de Campeones (3)</td><td>1963-64, 1964-65, 2009-10.</td></tr>
+                    <tr><td>Liga Europa (3)</td><td>1990-91, 1993-94, 1997-98.</td></tr>
+                </table>
+            </section>
+            <!-- <aside class="col-12 h-100 d-flex justify-content-center p-2">
+                <img src="../images/Inter titulos 1.png" class="img-fluid" alt="Títulos Nacionales Inter 1">
+            </aside>
+            <aside class="col-12 h-100 d-flex justify-content-center p-2"></aside>
+            <img src="../images/Inter titulos 3.jpg" class="img-fluid" alt="Títulos Nacionales Inter 2">
+            </aside> -->
+        </div>
 
-    <main>
-        <section>
-            <h2>Títulos Nacionales</h2>
-            <p>Los títulos nacionales ganador por el Inter son los siguientes:</p>
-            <table border="5px" cellspacing="1px" cellpadding="1px">
-                <th>Competición Nacional</th>
-                <th>Títulos</th>
-                <tr>
-                <tr><td>Primera División de Italia (19)</td><td>1909-10, 1919-20, 1929-30, 1937-38, 1939-40, 1952-53, 1953-54, 1962-63, 1964-65, 1965-66, 1970-71, 1979-80, 1988-89, 2005-06, 2006-07, 2007-08, 2008-09, 2009-10, 2020-21.</td></tr>
-                <tr><td>Copa de Italia (8)</td><td>1938-39, 1977-78, 1981-82, 2004-05, 2005-06, 2009-10, 2010-11, 2021-22.</td></tr>
-                <tr><td>Supercopa de Italia (6)</td><td>1989, 2005, 2006, 2008, 2010, 2021.</td></tr>                
-            </table>
-    
-            <img src="./images/Inter titulos 2.jpg" alt="Títulos Nacionales Inter">
-        </section>
-        
-        <section>
-            <h2>Títulos Internacionales</h2>
-            <p>Los títulos internacionales ganador por el Inter son los siguientes:</p>
-            <table border="5px" cellspacing="1px" cellpadding="1px">
-                <th>Competición Internacional</th>
-                <th>Títulos</th>
-                <tr><td>Copa Mundial de Clubes (1)</td><td>2010.</td></tr>
-                <tr><td>Copa Intercontinental (2)</td><td>1964, 1965.</td></tr>
-                <tr><td>Liga de Campeones (3)</td><td>1963-64, 1964-65, 2009-10.</td></tr>
-                <tr><td>Liga Europa (3)</td><td>1990-91, 1993-94, 1997-98.</td></tr>
-            </table>
-            
-            <img src="./images/Inter titulos 1.png" alt="Títulos Nacionales Inter 1">
-            <img src="./images/Inter titulos 3.jpg" alt="Títulos Nacionales Inter 2">
-    
-        </section>   
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" alt="Título Champions League" src="../images/Inter titulos 1.png">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Champions League</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" alt="Título  Mundial de Clubes" src="../images/Inter titulos 3.jpg">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Mundial de Clubes</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" alt="Título Supercopa de Italia" src="../images/Inter titulos 2.jpg">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Supercopa de Italia</h5>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
     </main>
     
-    <footer>
-        <a href="#top"><button>Volver Arriba</button></a>
+    <footer class="container-fluid bg-black p-3">
+        <div class="d-flex">
+            <div class="p-2 flex-grow-1"><a class="btn btn-primary" href="#top" role="button">Volver Arriba</a></div>
+            <div class="p-2 text-white">Copyright ©</div>
+          </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
 </body>
 </html>

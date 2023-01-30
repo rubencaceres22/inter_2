@@ -1,11 +1,16 @@
-header{
-    background-color: blue;
+body{
+    width: 100vw;
+    height: 100vh;
 }
 
-footer{
-    background-color: blue;
+header{
+    height: auto;
 }
 
 main{
-    background-color: white;
+    height: auto;
+}
+
+footer{
+    height: auto;
 }
