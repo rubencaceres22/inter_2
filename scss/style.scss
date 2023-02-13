@@ -1,0 +1,21 @@
+@import "./variables";
+@import "./header";
+@import "./main";
+@import "./footer";
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+header{
+    height: auto;
+}
+
+main{
+    height: auto;
+}
+
+footer{
+    height: auto;
+}

@@ -1,16 +1,36 @@
-body{
-    width: 100vw;
-    height: 100vh;
+header {
+  background-color: #000;
+  color: white;
 }
 
-header{
-    height: auto;
+main {
+  background-color: #000;
+  font-weight: bold;
+}
+main div {
+  background-color: #0d6efd;
 }
 
-main{
-    height: auto;
+footer {
+  background-color: #000;
+}
+footer div {
+  color: white;
 }
 
-footer{
-    height: auto;
+body {
+  width: 100vw;
+  height: 100vh;
 }
+
+header {
+  height: auto;
+}
+
+main {
+  height: auto;
+}
+
+footer {
+  height: auto;
+}/*# sourceMappingURL=style.css.map */
