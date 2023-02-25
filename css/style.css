@@ -18,6 +18,11 @@ footer div {
   color: white;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   width: 100vw;
   height: 100vh;
@@ -33,4 +38,28 @@ main {
 
 footer {
   height: auto;
+}
+
+.box {
+  animation-name: animacion;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+}
+
+@keyframes animacion {
+  0% {
+    transform: translate(0);
+  }
+  25% {
+    transform: translate(10%);
+  }
+  50% {
+    transform: translate(0);
+  }
+  75% {
+    transform: translate(-10%);
+  }
+  100% {
+    transform: translate(0);
+  }
 }/*# sourceMappingURL=style.css.map */
