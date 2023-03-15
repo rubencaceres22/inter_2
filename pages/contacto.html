@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../css/style.css">
     <title>FC Internazionale Milano - Contacto</title>
 </head>
+
 <body>
     <header id="top" class="container-fluid">
         <div class="container-fluid">
@@ -41,71 +42,74 @@
     </header>  
 
     <main class="container-fluid p-3">
-        <div class="p-2 m-2 row h-100">
-            <section class="col-12 h-100">
-                <h2 class="text-decoration-underline">Contacto</h2>
-                <form action="" method="post">
-
-                    <div class="m-4">
-                        <label for="nombre">Ingrese su nombre y apellido:</label>
-                        <input
-                        type="text"
-                        name=""
-                        id="nombre"
-                        required
-                        placeholder="Nombre y Apellido"
-                        />
-                    </div>
-
-                    <div class="m-4">
-                        <label for="email">Ingrese su email:</label>
-                        <input
-                        type="email"
-                        name=""
-                        id="email"
-                        required
-                        placeholder="ejemplo@ejemplo.com"
-                        />
-                    </div>
-
-                    <div class="m-4">
-                       <p>¿Vive en Italia?</p>
-                         <div>
-                            <label for="si">Si</label>
-                            <input type="radio" name="pais" id="si" value="Si"/>
-                            <label for="no">No</label>
-                            <input type="radio" name="pais" id="no" value="No"/> 
-                        </div>
-                    </div>
-                    
-                    <div class="m-4">
-                        <p>Motivo de contacto</p>
-                        <div>
-                            <label for="fel">Felicitación</label>
-                            <input type="checkbox" name="motivo" id="fel" value="Felicitación"/>
-                            <label for="con">Consulta</label>
-                            <input type="checkbox" name="motivo" id="con" value="Consulta"/>
-                            <label for="queja">Queja</label>
-                            <input type="checkbox" name="motivo" id="queja" value="Queja"/>
-                            <label for="suj">Sujerencia</label>
-                            <input type="checkbox" name="motivo" id="suj" value="Sujerencia"/>
-                        </div>
-                    </div>
-                    
-                    <div class="m-4">
-                        <p>Escriba su mensaje:</p>
-                        <textarea class="form-control m-2" id="Textarea1" rows="5"></textarea>
+        <div class="row justify-content-md-center justify-content-center bg-black p-1 m-1">
+            <div class="p-3 m-2 h-100 col-12 col-lg-8">
+                <section class="col-12 h-100">
+                    <h2 class="text-decoration-underline">Contacto</h2>
+                    <form action="" method="post">
     
-                        <div class="m-2">
-                            <input id="enviar" type="submit" value="Enviar"/>
-                            <input id="reset" type="reset" value="Limpiar"/>
+                        <div class="m-4">
+                            <label for="nombre">Ingrese su nombre y apellido:</label>
+                            <input
+                            type="text"
+                            name=""
+                            id="nombre"
+                            required
+                            placeholder="Nombre y Apellido"
+                            />
                         </div>
-                    </div>
-
-                    
-                </form>
-            </section>
+    
+                        <div class="m-4">
+                            <label for="email">Ingrese su email:</label>
+                            <input
+                            type="email"
+                            name=""
+                            id="email"
+                            required
+                            placeholder="ejemplo@ejemplo.com"
+                            />
+                        </div>
+    
+                        <div class="m-4">
+                           <p>¿Vive en Italia?</p>
+                             <div>
+                                <label for="si">Si</label>
+                                <input type="radio" name="pais" id="si" value="Si"/>
+                                <label for="no">No</label>
+                                <input type="radio" name="pais" id="no" value="No"/> 
+                            </div>
+                        </div>
+                        
+                        <div class="m-4">
+                            <p>Motivo de contacto</p>
+                            <div>
+                                <label for="fel">Felicitación</label>
+                                <input type="checkbox" name="motivo" id="fel" value="Felicitación"/>
+                                <label for="con">Consulta</label>
+                                <input type="checkbox" name="motivo" id="con" value="Consulta"/>
+                                <label for="queja">Queja</label>
+                                <input type="checkbox" name="motivo" id="queja" value="Queja"/>
+                                <label for="suj">Sujerencia</label>
+                                <input type="checkbox" name="motivo" id="suj" value="Sujerencia"/>
+                            </div>
+                        </div>
+                        
+                        <div class="m-4">
+                            <p>Escriba su mensaje:</p>
+                            <textarea class="form-control m-2" id="Textarea1" rows="5"></textarea>
+        
+                            <div class="m-2">
+                                <input id="enviar" type="submit" value="Enviar"/>
+                                <input id="reset" type="reset" value="Limpiar"/>
+                            </div>
+                        </div>
+    
+                        
+                    </form>
+                </section>
+            </div>
         </div>
+        
     </main>
 
     <footer class="container-fluid p-3">
